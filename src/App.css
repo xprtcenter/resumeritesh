@@ -1,42 +1,123 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.main {
+	width: 100%;
+	background: url(assets/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	font-family: sans-serif;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar {
+	width: 86%;
+	display: flex;
+	margin: auto;
+	padding: 15px 0;
+	align-items: center;
+	justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.navbar .logo {
+	width: 80px;
+	cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 16px;
 }
 
-.read-the-docs {
-  color: #888;
+ul li a {
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: darkslategray;
+	margin-top: -3%;
+	transition: 0.4s ease;
+}
+
+ul li a:hover {
+	color: rgb(230, 104, 59);
+}
+
+.info {
+	margin-left: 7%;
+	margin-top: 6%;
+}
+
+.info h1 {
+	font-size: 65px;
+	color: rgb(36, 32, 30);
+}
+
+.info h3 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.info span {
+	color: rgb(230, 104, 59);
+}
+
+.info a {
+	text-decoration: none;
+	color: #fff;
+	background: rgb(36, 32, 30);
+	margin: 26px 0;
+	padding: 10px 18px;
+	border-radius: 10px;
+	display: inline-block;
+	transition: 0.4s ease;
+}
+
+.info a:hover {
+	background: rgb(59, 174, 209);
+}
+
+.image {
+	width: 30%;
+	height: 80%;
+	position: absolute;
+	right: 100px;
+	bottom: 0;
+
+	overflow: hidden;
+	border-radius: 20%;
+}
+
+.image img {
+	position: relative;
+	height: 230%;
+	left: 50%;
+	transform: translate(-55%);
+	bottom: 0;
+	transition: left 2s ease;
+}
+
+.image:hover .ritesh {
+	left: 55%;
+}
+
+.icons a {
+	text-decoration: none;
+	color: #000;
+}
+
+.icons ion-icon {
+	margin-left: 7%;
+	color: #000;
+	margin-right: -60px;
+	font-size: 40px;
+	transition: 0.4s ease;
+}
+
+.icons ion-icon:hover {
+	color: rgb(59, 174, 209);
 }
