@@ -1,5 +1,7 @@
 import "./App.css";
 import IMAGES from "./assets/images";
+import { TypeAnimation } from "react-type-animation";
+
 function App() {
 	return (
 		<>
@@ -26,7 +28,7 @@ function App() {
 					</ul>
 				</div>
 
-				<div className="info">
+				<div class="info">
 					<h3>
 						Hi, I'm <span>Ritesh Rastogi</span>.
 					</h3>
@@ -42,7 +44,6 @@ function App() {
 						Resume Download
 					</a>
 				</div>
-
 				<div className="image">
 					<img src={IMAGES.ritesh} alt="ritesh" className="ritesh" />
 				</div>
