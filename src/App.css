@@ -13,7 +13,7 @@
 	font-family: sans-serif;
 }
 
-.navbar {
+.main .navbar {
 	width: 86%;
 	display: flex;
 	margin: auto;
@@ -22,18 +22,18 @@
 	justify-content: space-between;
 }
 
-.navbar .logo {
+.main .navbar .logo {
 	width: 80px;
 	cursor: pointer;
 }
 
-ul li {
+.navbar ul li {
 	list-style: none;
 	display: inline-block;
 	padding: 10px 16px;
 }
 
-ul li a {
+.navbar ul li a {
 	font-size: 16px;
 	font-weight: bold;
 	text-decoration: none;
@@ -42,13 +42,14 @@ ul li a {
 	transition: 0.4s ease;
 }
 
-ul li a:hover {
-	color: rgb(230, 104, 59);
+.navbar ul li a:hover {
+	color: rgb(236, 66, 4);
 }
 
 .info {
 	margin-left: 7%;
 	margin-top: 6%;
+	width: 50%;
 }
 
 .info h1 {
@@ -63,7 +64,7 @@ ul li a:hover {
 }
 
 .info span {
-	color: rgb(230, 104, 59);
+	color: rgb(252, 67, 0);
 }
 
 .info a {
@@ -92,7 +93,7 @@ ul li a:hover {
 	border-radius: 20%;
 }
 
-.image img {
+.image .ritesh {
 	position: relative;
 	height: 230%;
 	left: 50%;

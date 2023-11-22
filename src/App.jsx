@@ -28,17 +28,15 @@ function App() {
 					</ul>
 				</div>
 
-				<div class="info">
-					<h3>
-						Hi, I'm <span>Ritesh Rastogi</span>.
-					</h3>
+				<div className="info">
+					<h3>Hi, I'm.</h3>
 					<h1>
-						<span>W</span>EB <span>D</span>ESIGNER
+						<span>R</span>ITESH <span>R</span>ASTOGI
 					</h1>
 					<h3>
-						Web designer and developer from Uttar Pradesh,India. I create <br />
-						websites to do businesses do better <br />
-						online.
+						Web designer and developer from Uttar Pradesh, India. I can do many
+						things like websites creation, web application devlopment and to do
+						businesses do better online.
 					</h3>
 					<a href="https://drive.google.com/file/d/1leHmnABGh7j4nAj5ZLLMVafiVD8zqeVD/view?usp=sharing">
 						Resume Download
