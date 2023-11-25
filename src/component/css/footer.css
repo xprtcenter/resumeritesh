@@ -1,0 +1,25 @@
+.footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+}
+
+.row-container {
+	display: flex;
+	height: 100px;
+	width: 100%;
+
+	align-items: center;
+	justify-content: space-around;
+	margin: 10px 0;
+}
+.row-container ul li {
+	list-style: none;
+	padding: 3px 0;
+}
+.row-container ul li a {
+	text-decoration: none;
+	color: black;
+}
